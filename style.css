@@ -1,8 +1,29 @@
+* {
+  margin: 0px;
+}
+
 body {
-  background-image: url('1af34e6d-3ac3-414a-96cc-f337eca95445')
+  background-image: url(1af34e6d-3ac3-414a-96cc-f337eca95445.jpg);
+  background-size: cover;
 }
 
 
-p {
-  color: red;
+.container {
+  color: yellow;
+  font-size: 120px;
+  font-family: Verdana;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dedans {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  vertical-align: middle;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
